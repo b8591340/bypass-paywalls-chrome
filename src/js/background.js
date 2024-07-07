@@ -233,7 +233,7 @@ const blockedRegexes = {
   'japantimes.co.jp': /cdn\.cxense\.com\//,
   'scmp.com': /(\.tinypass\.com\/|cdn\.ampproject\.org\/v\d\/amp-access-.+\.js)/,
   'ilmessaggero.it': /(utils\.cedsdigital\.it\/js\/PaywallMeter\.js)/,
-  'washingtonpost.com': /\.washingtonpost\.com\/tetro\/metering\/evaluate/,
+  'washingtonpost.com': /washingtonpost\.com/.*?tetro/,
   'theatlantic.com': /cdn\.theatlantic\.com\/_next\/static\/chunks\/pages\/.+\/archive\//,
   'bloomberg.com': /(\.cm\.bloomberg\.com\/|assets\.bwbx\.io\/s\d\/javelin\/.+\/transporter\/)/
 };
